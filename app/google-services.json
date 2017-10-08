@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "245790711837",
+    "firebase_url": "https://vistarainflightservices2.firebaseio.com",
+    "project_id": "vistarainflightservices2",
+    "storage_bucket": "vistarainflightservices2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245790711837:android:be05e99d306b2490",
+        "android_client_info": {
+          "package_name": "com.vistar.flight.vistarainflightservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245790711837-aas6ig3tlklgimoqp79knf5trgublcs0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistar.flight.vistarainflightservices",
+            "certificate_hash": "2c6840e4673c7a195019b34c1c54493d6ec3bae6"
+          }
+        },
+        {
+          "client_id": "245790711837-fogelaaosnodrssh6e19cfeme6idi310.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistar.flight.vistarainflightservices",
+            "certificate_hash": "92d893a975cdb73aeb307874e6f3222e36672c7c"
+          }
+        },
+        {
+          "client_id": "245790711837-su2h4n10m3v5t4tid79vr74shj0hrqus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE2hCx5Kg_5vnH0TPwFOXN7obot3bMXdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245790711837-su2h4n10m3v5t4tid79vr74shj0hrqus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245790711837:android:9dccb8172a4dbf2c",
+        "android_client_info": {
+          "package_name": "com.example.mayankgoyal.vistara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245790711837-q5lkgiqp9d9o8pikhvqb512meaiu4pb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mayankgoyal.vistara",
+            "certificate_hash": "4ec00ff897db5896aedfd9db2e02424bcbf94374"
+          }
+        },
+        {
+          "client_id": "245790711837-su2h4n10m3v5t4tid79vr74shj0hrqus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE2hCx5Kg_5vnH0TPwFOXN7obot3bMXdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245790711837-su2h4n10m3v5t4tid79vr74shj0hrqus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

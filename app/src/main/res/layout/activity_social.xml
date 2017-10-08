@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloud"
+    tools:context="com.example.mayankgoyal.vistara.social">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Social"
+        android:textColor="#582C4F"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:textColor="#582C4F"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:textColor="#582C4F"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:textColor="#582C4F"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv3"
+        android:layout_margin="30dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:textColor="#582C4F"
+        android:textSize="20dp" />
+
+</RelativeLayout>

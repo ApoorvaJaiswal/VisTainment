@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/backg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:id="@+id/placeQuestion"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/question_bg"
+        android:text="What do you wanna first do when you reach Japnan?"
+        android:textColor="#ffffff"
+        android:padding="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/restaurant"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:maxWidth="180dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/buttonback"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Eat at a restaurant"
+        android:textColor="#66ccff" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lodging"
+        android:maxWidth="180dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/buttonback"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Go to a Hotel and rest"
+        android:textColor="#66ccff" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/museum"
+        android:maxWidth="180dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/buttonback"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Find a museum to view amazing arts"
+        android:textColor="#66ccff" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/amusement_park"
+        android:maxWidth="180dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/buttonback"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Enjoy yourself at an amusement park"
+        android:textColor="#66ccff" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="180dp"
+        android:textSize="10dp"
+        android:id="@+id/hospital"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/buttonback"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Visit a hospital"
+        android:textColor="#66ccff" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/shopping_mall"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:maxWidth="180dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/buttonback"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Go and buy stuff in a Shopping Mall"
+        android:textColor="#66ccff" />
+
+
+
+</LinearLayout>
+
+
+

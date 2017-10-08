@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical"
+    tools:context="com.vistar.flight.vistarainflightservices.GameOfChoices">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:gravity="center"
+            android:id="@+id/questionStory"
+            android:background="@drawable/question_bg"
+            android:text="How are You??"
+            android:textColor="#ffffff"
+            android:padding="20dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="180dp"
+            android:gravity="center"
+            android:id="@+id/choiceStoryLeft"
+            android:textStyle="bold"
+            android:background="@drawable/choice_bg"
+            android:padding="20dp"
+            android:text="Fine"
+            android:textColor="#66ccff" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:id="@+id/choiceStoryRight"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:background="@drawable/choice_bg"
+            android:padding="20dp"
+            android:text="Not Fine"
+            android:textColor="#66ccff" />
+    </RelativeLayout>
+
+</RelativeLayout>
